@@ -1,0 +1,104 @@
+{
+  "buildings": [
+    {
+      "id": 1,
+      "name": "Cursor",
+      "firstPrice": 15,
+      "price": 15,
+      "cps": 0.1,
+      "text":"Autoclicks once every 10 seconds.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 2,
+      "name": "Grandma",
+      "firstPrice": 100,
+      "price": 100,
+      "cps": 1,
+      "text":"A nice grandma to bake more cookies.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 3,
+      "name": "Farm",
+      "firstPrice": 1100,
+      "price": 1100,
+      "cps": 8,
+      "text":"Grows cookie plants from cookie seeds.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 4,
+      "name": "Mine",
+      "firstPrice": 12000,
+      "price": 12000,
+      "cps": 47,
+      "text":"Mines out cookie dough and chocolate chips.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 5,
+      "name": "Factory",
+      "firstPrice": 130000,
+      "price": 130000,
+      "cps": 260,
+      "text":"Produces large quantities of cookies.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 6,
+      "name": "Bank",
+      "firstPrice": 1400000,
+      "price": 1400000,
+      "cps": 1400,
+      "text":"Generates cookies from interest.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 7,
+      "name": "Tample",
+      "firstPrice": 20000000,
+      "price": 20000000,
+      "cps": 7800,
+      "text":"Full of precious, ancient chocolate.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 8,
+      "name": "Wizard tower",
+      "firstPrice": 330000000,
+      "price": 330000000,
+      "cps": 44000,
+      "text":"Summons cookies with magic spells.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 9,
+      "name": "Shipment",
+      "firstPrice": 5100000000,
+      "price": 5100000000,
+      "cps": 260000,
+      "text":"Brings in fresh cookies from the cookie planet.",
+      "current": 0,
+      "isOwned": false
+    },
+    {
+      "id": 10,
+      "name": "Alchemy lab",
+      "firstPrice": 75000000000,
+      "price": 75000000000,
+      "cps": 1600000,
+      "text":"Turns gold into cookies!",
+      "current": 0,
+      "isOwned": false
+    }
+  ]
+}

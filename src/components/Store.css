@@ -1,0 +1,90 @@
+.building-container {
+  width: calc(26% - 20px); /* Yatayda %50 genişlik */
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  color: #333333;
+  font-size: 1.6rem;
+  transition: background-color 0.3s;
+  display: inline-block; /* Satırda yan yana gösterme */
+  box-sizing: border-box; /* Paddings ve borderın genişliğe dahil olması */
+}
+
+.building-container:hover {
+  background-color: #e0e0e0;
+}
+
+.building-item {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #21d121;
+  margin-bottom: 10px;
+}
+
+.building-details {
+  margin-top: 8px;
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.building-container.disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.building-details.active {
+  opacity: 1;
+}
+
+.produce-button {
+  margin-top: 20px;
+  padding: 16px 32px;
+  font-size: 2rem;
+  background-color: #5d3a1a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.produce-button:hover {
+  background-color: #836142;
+}
+
+.produce-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.cookie-container {
+  margin-bottom: 20px;
+}
+
+.cookie{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cookie-per-second {
+  font-size: 1.2rem;
+  color: #888888;
+}
+
+.store-name {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #333;
+}
+
+.store-name:hover {
+  color: #666;
+}
