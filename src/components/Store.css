@@ -1,5 +1,5 @@
 .building-container {
-  width: calc(26% - 20px); /* Yatayda %50 genişlik */
+  width: calc(26% - 20px);
   padding: 15px;
   margin: 10px;
   text-align: center;
@@ -8,8 +8,8 @@
   color: #333333;
   font-size: 1.6rem;
   transition: background-color 0.3s;
-  display: inline-block; /* Satırda yan yana gösterme */
-  box-sizing: border-box; /* Paddings ve borderın genişliğe dahil olması */
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .building-container:hover {
