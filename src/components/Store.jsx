@@ -4,11 +4,12 @@ import './Store.css';
 
 
 const Store = ({ cookie, setCookie, cookiePerSecond, setCookiePerSecond }) => {
-
-
+    const [buildings, setBuildings] = useState(data.buildings);
 
     // her saniye yapılan hesaplamalarla cookie miktarını ve saniyede üretilen miktarı güncellemek için kullanılır    
     useEffect(() => {
+ 
+
         const interval = setInterval(() => {
             let totalCookiePerSecond = 0;
             buildings.forEach((building) => {
@@ -23,7 +24,7 @@ const Store = ({ cookie, setCookie, cookiePerSecond, setCookiePerSecond }) => {
         return () => {
             clearInterval(interval);
         };
-    }, [cookie, setCookie, setCookiePerSecond]);
+    }, [cookie, setCookie, setCookiePerSecond, buildings]);
     //
 
 
@@ -42,7 +43,7 @@ const Store = ({ cookie, setCookie, cookiePerSecond, setCookiePerSecond }) => {
 
 
     // bir build'i satın alma işlemini gerçekleştirmek ve ilgili durumları güncellemek için kullanılır
-const [buildings, setBuildings] = useState(data.buildings);
+
 
 const handleClick = (id, price) => {
   if (cookie >= price) {
